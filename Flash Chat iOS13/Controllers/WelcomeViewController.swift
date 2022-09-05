@@ -7,16 +7,20 @@
 //
 
 import UIKit
+import CLTypingLabel
 
 class WelcomeViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleLabel: CLTypingLabel!
+    
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        navigationController?.toolbar.barTintColor = UIColor(named: "BrandBlue")
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
+        
+        titleLabel.text = K.appName
     }
-    
-
 }
