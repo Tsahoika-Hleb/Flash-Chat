@@ -47,6 +47,7 @@
 		FC62D38C28AD857F00514A6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FC62D38E28ADAAEE00514A6B /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		FC62D39028ADB2AF00514A6B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "Flash Chat iOS13/Message.swift"; sourceTree = SOURCE_ROOT; };
+		FC93C8B228C7683400CD0643 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 				0B628184235DEE8400E35CAF /* Info.plist */,
 				FC62D38C28AD857F00514A6B /* GoogleService-Info.plist */,
 				FC62D38E28ADAAEE00514A6B /* Constans.swift */,
+				FC93C8B228C7683400CD0643 /* Config.xcconfig */,
 			);
 			path = "Flash Chat iOS13";
 			sourceTree = "<group>";
